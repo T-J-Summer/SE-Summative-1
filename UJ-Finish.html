@@ -10,7 +10,7 @@
 <div>
   <div style="background-color: darkgrey" class="d-flex p-3"><button class="btn" onclick="location.href='UJ-Question-2.html';" type="button"><img src="BackArrow.png" alt="Undo Button" width="40" height="40" class="me-3"></button> <h1>Europeans on UK Rails!</h1> <img src="Logo.png" alt="Europeans on UK Rails Logo" width="60" class="ms-auto" ></div>
   <div class="m-3">
-    <h1> ☕️ <span id="answer"></span></h1><Br>
+    <h1><span id="answer"></span></h1><Br>
 
     The UK uses Litres or Millilitres to measure the volume of coffee consumed on trains<Br>
 
@@ -27,9 +27,9 @@
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get('answer') == 'LorML') {
-    document.getElementById("answer").innerHTML = 'Thats Right !'
+    document.getElementById("answer").innerHTML = '☕️ Thats Right !'
   } else
-  {document.getElementById('answer').innerHTML = 'Not quite right'}
+  {document.getElementById('answer').innerHTML = '🥤 Not quite right'}
 </script>
 </body>
 </html>
