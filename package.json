@@ -1,0 +1,11 @@
+{
+  "name": "se-summative-1",
+  "version": "1.0.0",
+  "description": "<p> <details> <summary>What is Europians on UK rails? 🇪🇺->🇬🇧🚆</summary>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
