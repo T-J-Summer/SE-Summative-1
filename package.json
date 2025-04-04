@@ -1,0 +1,14 @@
+{
+  "name": "se-summative-1",
+  "version": "1.0.0",
+  "description": "<p> <details> <summary>What is Europians on UK rails? 🇪🇺->🇬🇧🚆</summary>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
