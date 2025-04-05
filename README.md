@@ -82,28 +82,28 @@ This is what the prototype looks like for the user:
 📊 Kanban Board
 -
 To manage this project, I chose to user GitHub Projects as it natively intergrates with GitHub which is where the project is hosted. GitHub projects allows a Kanban Board which helps to catagorise each ticket with lables so you can easily filter the tickets to find the section you are looking for.
-With the tickets I have chosen a design tempolate that that clearly outlines what the ticket is for, the activities within it, the dependancies required in order to worlk on this ticket and any additinal notes.
+With the tickets I have chosen a design template that clearly outlines what the ticket is for, the activities within it, the dependencies required in order to worlk on this ticket and any additinal notes.
 GitHubs Kanban also enables the user to connect pull requests to the ticket allowing for seamless audit logs, in addition to other features I didnt have to use such as asigning actions as I did this project alone.
 
 ![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Kanban%20Board.jpg)
 
-As previously mentoned, this approach allows for the use of lables I chose to customise these lables to ensure they where relivent to my project:
+As previously mentioned, this approach allows for the use of labels I chose to customise these labels to ensure they were relevant to my project:
 - 🧱 App Development - Any production element of the web app
-- 🐛 Bug Fixes - If something isnt working in the web app
-- 📝 Design - Any production matireal to help prep for the web app build
-- 📄 Documentation - Inprovements or changes to documentation
+- 🐛 Bug Fixes - If something isn't working in the web app
+- 📝 Design - Any production materials to help prep for the web app build
+- 📄 Documentation - Improvements or changes to documentation
 - 📂⃕ Future Development - Ideas out of the current scope or ability
 - 📑 Improvements - Amendments & positive changes
 - 🗂️ README - Amendments or additions to the README file
 - 🧪 Testing - Any test performed associated with the web app.
 
-Using Git Hub labels was benificial for my project as it enabled me to efficiently lable each ticket so any developer could log on and at a glance find the catagory that they where after, by customising these lables i was able to simplify my ticket management and ensure my documentation was clean. The only drawback i found was when you connected an issue to a ticket the lables where not automaticaly transfered, this lead me to only labling the tickets. If i was to do this project again this is something i would look into to ensure there is an additinal layer of catagorising, however i feel labeling the tickets was sufficent to efficiently directing any developer to where they need to go.
+Using Git Hub labels was beneficial for my project as it enabled me to efficiently label each ticket so any developer could log on and at a glance find the category that they were after, by customising these labels I was able to simplify my ticket management and ensure my documentation was clean. The only drawback I found was when you connected an issue to a ticket the labels were not automatically transferred, this led me to only label the tickets. If I were to do this project again this is something I would look into to ensure there is an additional layer of categorising, however, I feel labelling the tickets was sufficient to efficiently direct any developer to where they need to go.
 
 📂⃔⃕ Ticket Layout
 -
 As previously mentioned i followed a set template when producing my tickets to ensure all ticket fully informed anyone viewing what it is for, and to also to ensure the ticxkets where clear during all stages of the project and i could refer back to them effortlesly.
 - Description - This section was used to provide any information as to why the ticket had been produced and what it aims to acheve.
-- Objectives - I utilised checkboxes to clearly mark an objective as done when finished and also utilised this feature to convert any objectives i hadnt acheved into new tickets to then be worked on as an inprovemrnt or bug fix. These objectives where used to clearly outlign what steps where being completed as part of this ticket.
+- Objectives - I utilised checkboxes to clearly mark an objective as done when finished and also utilised this feature to convert any objectives I hadn't achieved into new tickets to then be worked on as an improvement or bug fix. These objectives were used to outline what steps were being completed as part of this ticket.
 - Dependancies - This section was used to inform me what needed to be completed before moving onto the next stage, this helped me to align to the agile approach and complete a stage only when the taks that need to be completer first have been.
 - Notes - This section was used for any additnal info about the ticket, for example in the language changer ticket I explaines why it is a future development.
 
@@ -111,8 +111,32 @@ As previously mentioned i followed a set template when producing my tickets to e
 
 🏃🏼 Agile Methodology & Sprints
 -
-For this project, I chose to follow the Agile methodology with sprints which i used the GitHub Roadmap feature to clarly layout when each task should be completed. However as the name sugest this approach is agile and allows for changes in the scedule. An exaple of this in my project was when pushing the app live, a bug occured where my apps index page had a capital I, this meant that my GitHub was not able to find the HTML web app and i had to create a new bug ticket to discover and fix this issue. This meant that i had to re-prioritise items to ensure the bug fix was prioritised over documentation.
+For this project, I chose to follow the Agile methodology with sprints which I used the GitHub Roadmap feature to lay out when each task should be completed. However, as the name suggests this approach is agile and allows for changes in the schedule. An example of this in my project was when pushing the app live, a bug occurred where my app's index page had a capital I, this meant that my GitHub was not able to find the HTML web app and I had to create a new bug ticket to discover and fix this issue. This meant that I had to re-prioritise items to ensure the bug fix was prioritised over documentation.
 
 ![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Roadmap%20Planning.png)
+
+</details>
+
+
+
+<p>
+<details>
+<summary>User Documentation 👨🏻‍💼📑</summary>
+
+▶️ Using The Web App
+-
+To begin, open the web app [(click here for a shortcut💨)](https://t-j-summer.github.io/SE-Summative-1/). From here, the web app is simple to use, simply pick to go into the user journey where you will learn more about units of measurement and how the UK differs from the rest of the world or skip straight to the converter where you can convert your own measurements.
+
+See below for an example of how to navigate through the web app:
+![An animated GIF showing the web app and navigating through the user story](https://github.com/T-J-Summer/SE-Summative-1/blob/main/AppDemo.gif)
+
+🔖 Your Requirements
+-
+When using the web app, please make sure you have an internet connection at all times and are using the latest link for the web app! 
+When using the converter, please make sure to only enter numerical values to avoid an error message occurring
+
+☄️ Troubleshooting
+- 
+If you are having issues with any element of the app, please refresh the page. If the issue persists, please make sure you are using a compatible web browser, Safari or Chrome should work fine.
 
 </details>
