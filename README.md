@@ -5,7 +5,7 @@
 <details>
 <summary>What is Europians on UK rails? 🇪🇺->🇬🇧🚆</summary>
 
-🇪🇺 -> 🇬🇧 Why?
+🇪🇺->🇬🇧 Why?
 -
 With a modern world that allows you to wake up in one country and be in another by lunchtime, it is important that you understand some of the differences between how different countries operate. An example of this is the Euro Tunnel that connects Britain & France, enabling people from all over Europe to travel to the UK effortlessly. 
 
@@ -13,7 +13,7 @@ With a modern world that allows you to wake up in one country and be in another 
 -
 Europeans on UK Rails (EoUKR) aims to both educate and assist individuals who are not from the UK on what units of measurement are used in the UK, the web app has a user journey that teaches you about Imperial & Metric measurements and how the UK has chosen to combine the two to have their own unit of measurement. 
 
-➖➕➗✖️ How?
+➗✖️ How?
 -
 EoUKR consists of a HTML web app base that hosts a user story and a Java Script converter at the end of the story that helps the user to convert between Miles Per Hour (MPH) <-> Kilometers Per Hour (KM/H) & Litres <-> Gallons. 
 
@@ -24,6 +24,8 @@ You can easily navigate through the app using the built-in buttons at the bottom
 ![An animated GIF showing the web app and navigating through the user story](https://github.com/T-J-Summer/SE-Summative-1/blob/main/AppDemo.gif)
 
 </details>
+
+
 
 <p>
 <details>
@@ -38,7 +40,7 @@ It is vital when designing an application that it is accessible to all users so 
 
 Following these rules, my web app uses a cream background with black text so users can easily read the text on the web app. Black buttons are also used with white text to ensure the user can easily read the content.
 
-📱↣📱⃔ Proposed web app pages
+📱↣📱⃔ Proposed web app pages & Navigation
 -
 To allow for ease of navigation, I used Black buttons with white text to clearly indicate to the user how to progress to the next page. Additionally, I used the universally recognised back arrow to enable users to return to the previous page that they were on with ease. Let's have a look at the pages and what they do!
 1. Welcome Screen:
@@ -68,5 +70,49 @@ This is what the Figma prototyping tool looks like:
 This is what the prototype looks like for the user:
 --
 ![Animated GIF showing the Figma prototype working](https://github.com/T-J-Summer/SE-Summative-1/blob/main/FigmaDemo.gif)
+
+</details>
+
+
+
+<p>
+<details>
+<summary>Project Management Approach 📊📂</summary>
+
+📊 Kanban Board
+-
+To manage this project, I chose to user GitHub Projects as it natively intergrates with GitHub which is where the project is hosted. GitHub projects allows a Kanban Board which helps to catagorise each ticket with lables so you can easily filter the tickets to find the section you are looking for.
+With the tickets I have chosen a design tempolate that that clearly outlines what the ticket is for, the activities within it, the dependancies required in order to worlk on this ticket and any additinal notes.
+GitHubs Kanban also enables the user to connect pull requests to the ticket allowing for seamless audit logs, in addition to other features I didnt have to use such as asigning actions as I did this project alone.
+
+![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Kanban%20Board.jpg)
+
+As previously mentoned, this approach allows for the use of lables I chose to customise these lables to ensure they where relivent to my project:
+- 🧱 App Development - Any production element of the web app
+- 🐛 Bug Fixes - If something isnt working in the web app
+- 📝 Design - Any production matireal to help prep for the web app build
+- 📄 Documentation - Inprovements or changes to documentation
+- 📂⃕ Future Development - Ideas out of the current scope or ability
+- 📑 Improvements - Amendments & positive changes
+- 🗂️ README - Amendments or additions to the README file
+- 🧪 Testing - Any test performed associated with the web app.
+
+Using Git Hub labels was benificial for my project as it enabled me to efficiently lable each ticket so any developer could log on and at a glance find the catagory that they where after, by customising these lables i was able to simplify my ticket management and ensure my documentation was clean. The only drawback i found was when you connected an issue to a ticket the lables where not automaticaly transfered, this lead me to only labling the tickets. If i was to do this project again this is something i would look into to ensure there is an additinal layer of catagorising, however i feel labeling the tickets was sufficent to efficiently directing any developer to where they need to go.
+
+📂⃔⃕ Ticket Layout
+-
+As previously mentioned i followed a set template when producing my tickets to ensure all ticket fully informed anyone viewing what it is for, and to also to ensure the ticxkets where clear during all stages of the project and i could refer back to them effortlesly.
+- Description - This section was used to provide any information as to why the ticket had been produced and what it aims to acheve.
+- Objectives - I utilised checkboxes to clearly mark an objective as done when finished and also utilised this feature to convert any objectives i hadnt acheved into new tickets to then be worked on as an inprovemrnt or bug fix. These objectives where used to clearly outlign what steps where being completed as part of this ticket.
+- Dependancies - This section was used to inform me what needed to be completed before moving onto the next stage, this helped me to align to the agile approach and complete a stage only when the taks that need to be completer first have been.
+- Notes - This section was used for any additnal info about the ticket, for example in the language changer ticket I explaines why it is a future development.
+
+![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Ticket%20Layout.png)
+
+🏃🏼 Agile Methodology & Sprints
+-
+For this project, I chose to follow the Agile methodology with sprints which i used the GitHub Roadmap feature to clarly layout when each task should be completed. However as the name sugest this approach is agile and allows for changes in the scedule. An exaple of this in my project was when pushing the app live, a bug occured where my apps index page had a capital I, this meant that my GitHub was not able to find the HTML web app and i had to create a new bug ticket to discover and fix this issue. This meant that i had to re-prioritise items to ensure the bug fix was prioritised over documentation.
+
+![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Roadmap%20Planning.png)
 
 </details>
