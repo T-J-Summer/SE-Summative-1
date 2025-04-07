@@ -21,7 +21,7 @@ EoUKR consists of a HTML web app base that hosts a user story and a Java Script 
 -
 You can easily navigate through the app using the built-in buttons at the bottom of each page. There is also a back arrow as you progress with the user journey, so you can return to the previous page effortlessly. I also added a button on the home page that enables you to skip straight to the converter if you want!
 
-![An animated GIF showing the web app and navigating through the user story](https://github.com/T-J-Summer/SE-Summative-1/blob/main/AppDemo.gif)
+![An animated GIF showing the web app and navigating through the user story](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/AppDemo.gif)
 
 </details>
 
@@ -65,11 +65,11 @@ Figma also enables you to connect the paged together with their prototyping tool
 
 This is what the Figma prototyping tool looks like:
 --
-![Screenshot of the backend of my Figma with the page links visable](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Figma%20Prototype.png)
+![Screenshot of the backend of my Figma with the page links visable](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Figma%20Prototype.png)
 
 This is what the prototype looks like for the user:
 --
-![Animated GIF showing the Figma prototype working](https://github.com/T-J-Summer/SE-Summative-1/blob/main/FigmaDemo.gif)
+![Animated GIF showing the Figma prototype working](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/FigmaDemo.gif)
 
 </details>
 
@@ -85,7 +85,7 @@ To manage this project, I chose to user GitHub Projects as it natively intergrat
 With the tickets I have chosen a design template that clearly outlines what the ticket is for, the activities within it, the dependencies required in order to worlk on this ticket and any additinal notes.
 GitHubs Kanban also enables the user to connect pull requests to the ticket allowing for seamless audit logs, in addition to other features I didnt have to use such as asigning actions as I did this project alone.
 
-![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Kanban%20Board.jpg)
+![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Kanban%20Board.jpg)
 
 As previously mentioned, this approach allows for the use of labels I chose to customise these labels to ensure they were relevant to my project:
 - 🧱 App Development - Any production element of the web app
@@ -107,13 +107,13 @@ As previously mentioned i followed a set template when producing my tickets to e
 - Dependancies - This section was used to inform me what needed to be completed before moving onto the next stage, this helped me to align to the agile approach and complete a stage only when the taks that need to be completer first have been.
 - Notes - This section was used for any additnal info about the ticket, for example in the language changer ticket I explaines why it is a future development.
 
-![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Ticket%20Layout.png)
+![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Ticket%20Layout.png)
 
 🏃🏼 Agile Methodology & Sprints
 -
 For this project, I chose to follow the Agile methodology with sprints which I used the GitHub Roadmap feature to lay out when each task should be completed. However, as the name suggests this approach is agile and allows for changes in the schedule. An example of this in my project was when pushing the app live, a bug occurred where my app's index page had a capital I, this meant that my GitHub was not able to find the HTML web app and I had to create a new bug ticket to discover and fix this issue. This meant that I had to re-prioritise items to ensure the bug fix was prioritised over documentation.
 
-![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Roadmap%20Planning.png)
+![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Roadmap%20Planning.png)
 
 </details>
 
@@ -128,7 +128,7 @@ For this project, I chose to follow the Agile methodology with sprints which I u
 To begin, open the web app [(click here for a shortcut💨)](https://t-j-summer.github.io/SE-Summative-1/). From here, the web app is simple to use, simply pick to go into the user journey where you will learn more about units of measurement and how the UK differs from the rest of the world or skip straight to the converter where you can convert your own measurements.
 
 See below for an example of how to navigate through the web app:
-![An animated GIF showing the web app and navigating through the user story](https://github.com/T-J-Summer/SE-Summative-1/blob/main/AppDemo.gif)
+![An animated GIF showing the web app and navigating through the user story](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/AppDemo.gif)
 
 🔖 Your Requirements
 -
