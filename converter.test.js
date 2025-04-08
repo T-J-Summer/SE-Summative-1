@@ -63,15 +63,16 @@ describe('LitresToGallons', () => {
 });
 
 describe('validateInput', () => {
-    it('provides no error message if number is entered (happy path)', () => {
-        const result = validateInput('1');
-        expect(result).toBe('1');
-        expect(typeof result).toBe('string');
+    it('provides an error message if text is entered (happy path)', () => {
+        const result = validateInput('Test');
+        expect(result).toStrictEqual({"isValid": false, "message": "Only numeric values are allowed, and this field cannot be blank"});
     });
 
-    it('provides no error message if text entered (unhappy path)', () => {
-        const result = validateInput('test');
-        expect(result).toBe(true);
-        expect(typeof result).toBe('string');
+    it('provides no error message if numbers entered (unhappy path)', () => {
+        const result = validateInput('12');
+        expect(result).toStrictEqual({
+            "isValid": true,
+            "message": ""
+        });
     });
 });
