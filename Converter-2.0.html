@@ -41,15 +41,8 @@
   <p id="gallons-output" class="mt-2"></p>
 </div>
 
-<script type="module">
-  import {
-    validateInput,
-    kmhToMph,
-    mphToKmh,
-    litresToGallons,
-    gallonsToLitres,
-  } from './converter.js';
-
+<script src="./converter.js"></script>
+<script>
   document.getElementById("convert-kmh").addEventListener("click", () => {
     const value = document.getElementById("kmh-input").value;
     const result = validateInput(value);
