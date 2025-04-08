@@ -107,13 +107,13 @@ As previously mentioned i followed a set template when producing my tickets to e
 - Dependancies - This section was used to inform me what needed to be completed before moving onto the next stage, this helped me to align to the agile approach and complete a stage only when the taks that need to be completer first have been.
 - Notes - This section was used for any additnal info about the ticket, for example in the language changer ticket I explaines why it is a future development.
 
-![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Ticket%20Layout.png)
+![Screenshot showing the template i used for all my tickets](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Ticket%20Layout.png)
 
 🏃🏼 Agile Methodology & Sprints
 -
 For this project, I chose to follow the Agile methodology with sprints which I used the GitHub Roadmap feature to lay out when each task should be completed. However, as the name suggests this approach is agile and allows for changes in the schedule. An example of this in my project was when pushing the app live, a bug occurred where my app's index page had a capital I, this meant that my GitHub was not able to find the HTML web app and I had to create a new bug ticket to discover and fix this issue. This meant that I had to re-prioritise items to ensure the bug fix was prioritised over documentation.
 
-![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Roadmap%20Planning.png)
+![Screenshot of my schedule / roadmap and how i used it to plan takss around dates](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Roadmap%20Planning.png)
 
 </details>
 
@@ -139,4 +139,100 @@ When using the converter, please make sure to only enter numerical values to avo
 - 
 If you are having issues with any element of the app, please refresh the page. If the issue persists, please make sure you are using a compatible web browser, Safari or Chrome should work fine.
 
+</details>
+
+
+
+<p>
+<details>
+<summary>Building the web app MVP 🧱📱</summary>
+
+🧱 What is an MVP?
+-
+MVP stands for Minimum Viable Product, which, in basic terms, is the simplest version of an application that can be produced. It is similar to a Proof of Concept (POC) as it is used to display the idea for a new app without the risk of wasting resources developing something that isn't wanted by the public.
+By producing this MVP, my web app can be trialled by its target audience ahead of launch to ensure that it achieves what the users want it to do. Also, by having an MVP, there is a chance that an investor will see the web app and invest in the idea, enabling the scale-up across other outlets such as downloadable applications.
+
+🙋🏻‍♂️👨🏻‍🦽‍➡️ User Stories & Acsesability
+- 
+One of the key elements of developing any app is ensuring that the users and their navigation/accessibility of the application is at the forefront of development, due to this, I gathered feedback from users of the prototype to understand what they liked and didn't like:
+Likes:
+- The colour scheme makes it easy to read the information on the screen
+- The navigation is clear and the contrasting buttons make it clear where the progression points are
+Dislikes:
+- No way to skip the converter if you do not want to go on the user journey
+- The converter's error message keeps deleting numbers if a mistake is made
+
+I also built a few user stories to demonstrate some of the requirements everyday users will have of the web app and used these to develop the application in a way that is accessible to all, these user stories demonstrate the need to have an accessible app that has features such as alt text for images and contrasting colours to ensure all users can see the information that they want with ease.
+
+![Image showing the 3 user stories expressing the need for an acessable site for all](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/User%20Stories.png)
+
+Following this, I wanted to ensure my site was accessible, so I ran it through Google's Page Speed Insights checker which ranked assessability at 100%
+
+![Image showing the Google Page Speeds Summary](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Google%20Page%20Speed%20Insights.png)
+
+📝VS📱 Design to App production
+-
+When producing the web app I heavily based production on the previously mentioned prototype and web app design, this foundation enabled me to effectively build the foundations for the HTML web app, despite this, there were some changes that I had to make.
+
+1. Welcome Screen: Similar to the designed welcome screen, it introduces the user to what EoUKR is for and explains that the user will be taken through a story before using the converter. However, I added a button to allow users to skip straight to the converter so they are able to jump straight in if they are short for time as sugested by the first user story of a businessman hwo may need the information fast.
+
+2. Language Changer: This page has been added as a future development due to it being out of scope for an MVP and will be brought back in when the web app develops to the next stage.
+
+3. Introduction to The Converter: This page was incorporated into the end-of-user journey page as feedback from users suggested it wasn't necessary to have it on a separate page.
+
+4. Measurement Converter: The converter design was redesigned in the interest of accessibility and efficiency as the old design would cause issues for user when deleting numbers or making mistakes as the error message would display deleting all data in the boxes. The new design is also clearer for the user with visual inparements as screen readers are able to read the information easier without the containers.
+
+🐛 Bugs & Fixes
+-
+After the production of each page within this project I ran tests and from these, there was a series of bugs that needed fixing with bug fix tickets, most of the issues I had were using the correct naming conventions for different file types. For example, when creating my index.html, I accidentally used a capital 'I', which caused GitHub to fail when finding the site to publish it, this was an easy fix where I created a bug ticket and changed the name.
+![Image showing the bug ticket raised to fix the error](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Name%20change%20ticket.png)
+
+👨🏻‍💻 Code Process
+-
+With my web app, I chose to prioritise uniformity across all the pages both for accessibility but also efficiency so the user always knows where to go for the next step. With this in mind, the first thing I did on all of my pages was create the heading bar with the EoUKR logo & Logo
+```ruby
+<body style="background-color: #FEFBEA;">
+<div>
+    <div style="background-color: darkgrey" class="d-flex p-3"><button class="btn" onclick="location.href='index.html';" type="button">
+      <img src="Images/Web-App/BackArrow.png" alt="Undo Button" width="40" height="40" class="me-3"></button>
+        <h1>Europeans on UK Rails!</h1>
+          <img src="Images/Web-App/Logo.png" alt="Europeans on UK Rails Logo" width="60" class="ms-auto" ></div>
+```
+
+From this, I then produced the rest of the page depending on what was required, for example, let's look at the converter. I produced a Java Script file that hosts all the functions for the converter to work properly (e.g. the validation to stop the input of text into the number fields -  this is the below example)
+```ruby
+function validateInput(value) {
+    if (isNaN(value) || value.trim() === "") {
+        return {
+            isValid: false,
+            message: "Only numeric values are allowed, and this field cannot be blank"
+        };
+    }
+    return {
+        isValid: true,
+        message: ""
+    };}
+```
+
+Now that the functions have been defined, I created the html page that calls the functions in order for the converter to operate as required. below are 2 snippets of code, the first one is the front end of the KM/H to MPH converter
+```ruby
+    <h2>🚂 Speed Converter 🏎️</h2>
+<div class="mb-3">
+  <label for="kmh-input" class="form-label">KM/H:</label>
+  <input type="text" id="kmh-input" class="form-control">
+  <button class="btn btn-dark mt-2" id="convert-kmh">Convert to MPH</button>
+  <p id="kmh-output" class="mt-2"></p>
+</div>
+```
+The second is a snippet showing how the function is called from the Java Script file
+```ruby
+<script src="./converter.js"></script>
+<script>
+  document.getElementById("convert-kmh").addEventListener("click", () => {
+    const value = document.getElementById("kmh-input").value;
+    const result = validateInput(value);
+    document.getElementById("kmh-output").textContent =
+            result.isValid ? `${kmhToMph(value)} MPH` : result.message;
+</script>
+```
 </details>
