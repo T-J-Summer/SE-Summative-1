@@ -1,10 +1,10 @@
 const {
+    validateInput,
     kmhToMph,
     mphToKmh,
     litresToGallons,
-    gallonsToLitres
-} = require('./converter');
-const {validateInput} = require("./converter");
+    gallonsToLitres,
+} = require('./converter.js');
 
 describe('kmhToMph', () => {
     it('converts 80 km/h correctly (happy path)', () => {
