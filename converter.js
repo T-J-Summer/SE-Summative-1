@@ -1,4 +1,4 @@
-function validateInput(value) {
+export function validateInput(value) {
     if (isNaN(value) || value.trim() === "") {
         return {
             isValid: false,
@@ -11,26 +11,18 @@ function validateInput(value) {
     };
 }
 
-function kmhToMph(kmh) {
+export function kmhToMph(kmh) {
     return (parseFloat(kmh) * 5 / 8).toFixed(2);
 }
 
-function mphToKmh(mph) {
+export function mphToKmh(mph) {
     return (parseFloat(mph) * 8 / 5).toFixed(2);
 }
 
-function litresToGallons(litres) {
+export function litresToGallons(litres) {
     return (parseFloat(litres) / 4.546).toFixed(2);
 }
 
-function gallonsToLitres(gallons) {
+export function gallonsToLitres(gallons) {
     return (parseFloat(gallons) * 4.546).toFixed(2);
 }
-
-module.exports = {
-    validateInput,
-    kmhToMph,
-    mphToKmh,
-    litresToGallons,
-    gallonsToLitres
-};
