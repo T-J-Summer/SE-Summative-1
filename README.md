@@ -128,6 +128,7 @@ For this project, I chose to follow the Agile methodology with sprints which I u
 To begin, open the web app [(click here for a shortcut💨)](https://t-j-summer.github.io/SE-Summative-1/). From here, the web app is simple to use, simply pick to go into the user journey where you will learn more about units of measurement and how the UK differs from the rest of the world or skip straight to the converter where you can convert your own measurements.
 
 See below for an example of how to navigate through the web app:
+
 ![An animated GIF showing the web app and navigating through the user story](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/AppDemo.gif)
 
 🔖 Your Requirements
@@ -138,6 +139,70 @@ When using the converter, please make sure to only enter numerical values to avo
 ☄️ Troubleshooting
 - 
 If you are having issues with any element of the app, please refresh the page. If the issue persists, please make sure you are using a compatible web browser, Safari or Chrome should work fine.
+
+</details>
+
+
+<p>
+<details>
+<summary>Technical Documentation 🧑🏻‍🔬📊</summary>
+
+📚 Technical stack used
+-
+Within this project I used a few diffrent code languages and applications to ensure I was able to produce the app properly.
+- HTML (Hypertext Markup Language)
+- CSS (Cascading Style Sheets)
+- Java Script
+- GitHub
+- WebStorm
+
+🗼 Structure of the project
+-
+Images & GIF's:
+- `Images/` - This directory is where I have stored all the images for the web app and repository
+
+Welcome Page:
+- `index.html` - HTML Code (The front end)
+
+User Journey Question 1:
+- `UJ-Question-1.html` - HTML Code (The front end)
+
+User Journey Question 2:
+- `UJ-Question-2.html` - HTML Code (The front end)
+- `UJ.Question-2.js` - Java Script Code (Back end code dispaying the users answer to question 1)
+
+User Journey Finish:
+- `UJ-Finish.html` - HTML Code (The front end)
+- `UJ-Finish.js` - Java Script Code (Back end code dispaying the users answer to question 2)
+
+The Converter:
+- `Converter-2.0.html` - HTML Code (The front end)
+- `converter.js` - Java Script Code (Back end code running the conversions)
+
+Testing:
+- `smoke.test.js` - JavaScript Code  (Tests if Jest is working properly)
+- `converter.test.js` - JavaScript Code (Tests the functions used in the converter are working)
+- `package.json` & `package-lock.json` - JSON Code (Installs Jest & allows npm testing and other functinality for future development)
+
+
+🧪 Testing used
+-
+For this project, Jest is used for unit testing, specified in package.json. To run the unit tests please call the below:
+```
+npm t
+```
+
+🧍🏻͍🧍🏻 How to clone
+-
+In order to clone you will need to clone the repository & Install the dependancies. To clone in the terminal call,
+```
+git clone https://github.com/T-J-Summer/SE-Summative-1.git
+```
+Then to install the dependancies call,
+```
+npm install
+npm install --save-dev jest
+```
 
 </details>
 
@@ -189,7 +254,7 @@ After the production of each page within this project I ran tests and from these
 
 👨🏻‍💻 Code Process
 -
-With my web app, I chose to prioritise uniformity across all the pages both for accessibility but also efficiency so the user always knows where to go for the next step. With this in mind, the first thing I did on all of my pages was create the heading bar with the EoUKR logo & Logo
+With my web app, I chose to prioritise uniformity across all the pages both for accessibility but also efficiency so the user always knows where to go for the next step. With this in mind, the first thing I did on all of my pages was create the heading bar with the EoUKR logo & back icon
 ```ruby
 <body style="background-color: #FEFBEA;">
 <div>
@@ -236,3 +301,4 @@ The second is a snippet showing how the function is called from the Java Script 
 </script>
 ```
 </details>
+
