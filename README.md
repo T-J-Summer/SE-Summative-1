@@ -302,3 +302,43 @@ The second is a snippet showing how the function is called from the Java Script 
 ```
 </details>
 
+
+
+<p>
+<details>
+<summary>Testing 🧪</summary>
+
+🤷🏻 What did I use for testing?
+-
+As previously mentioned, this project has followed the Agile approach, which breaks the project into sprints. At the end of each of these sprints, there should be a test to ensure the changes work as anticipated. For this project, I used Jest, as it allowed me to run tests both on my local software (WebStorm) and online repository (Workflows in GitHub). Jest also had an automated test when any pull requests were merged into the main repository. 
+
+Jest also provides functionality to run a smoke test in your code. This smoke test runs a simple logic check like 1+1=2, and if Jest doesn't get this result, it fails the smoke test. This enables me to be confident that if Jest says my app is working, it actually is.
+
+I chose to track my project in GitHub Actions to drive Test-Driven-Development, as it meant that I was able to seamlessly integrate bug tickets into the production of my web app. Jest also ran tests when each new pull request was made, showing me where errors in the code occurred. This meant if any test failed I was able to go back and fix it before pushing the changes to the Main branch. 
+
+Testing is integral when delivering high-quality, reliable web apps, it ensures all functions operate as they should and don't give users any unexpected surprises. Testing also helps to drive efficient app builds as elements failing is rare as they have been tested before going live.
+
+🧑🏻‍💻🧪 Local Tests & Making the test
+-
+As previously mentioned, I can run my tests within WebStorm (My coding application), I used this when making a change to the tests to ensure they worked before pushing the changes. below is a screenshot of this in action, i used the terminal and ran the tests using 
+`npm t` which rund the Jest test.
+
+![Screenshot showing the Jest test in the terminal of webstorm](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/npm%20Test%20in%20WebStorm.png)
+
+🌐🧪 Online Tests running
+-
+Jest also works in GitHub workflows, which meant every time I pushed code, it checked to see if my Jest tests still worked as planned and if any changes made didn't affect the operations of the web app. Below is a screenshot of a successful test on GitHub.
+
+![Screenshot showing a sucsesful test on GitHub](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Sucsesful%20test%20in%20GitHub.png)
+
+😱 Failed Tests
+- 
+Unfortunately, sometimes my tests did fail, an example of this was when I exported the functions individually. They way that i did this caused an error in finding the converter page prompting my Jest tests to fail in GitHub and guiding me to where the test failed. 
+
+![Screenshot showing the failed Workflow in GitHub](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/npm%20Test%20failed.png)
+![Screenshot showing where the code failed within the failed workflow](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Error%20within%20failed%20test.png)
+
+From this, I was able to create a bug ticket and fix the error in the code before pushing the changes.
+
+
+</details>
