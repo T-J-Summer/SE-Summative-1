@@ -1,9 +1,9 @@
-# Europians on UK rails
-## Software Engerneering - Summative 1
+# Europeans on UK rails
+## Software Engineering - Summative 1
 
 <p>
 <details>
-<summary>What is Europians on UK rails? 🇪🇺->🇬🇧🚆</summary>
+<summary>What is Europeans on UK rails? 🇪🇺->🇬🇧🚆</summary>
 
 🇪🇺->🇬🇧 Why?
 -
@@ -47,7 +47,7 @@ To allow for ease of navigation, I used black buttons with white text to clearly
 The welcome screen introduces the user to what EoUKR is for and explains that the user will be taken through a story before using the converter. The user is then able to continue or change the language.
 2. Language Changer:
 This page gives users a clear interface to change the language of the app to suit them, there is a shortcut button to French as people would have used the Eurostar from France to get to the UK.
-3. Beginign of User Journey (Q1):
+3. Beginning of User Journey (Q1):
 When continuing the story, the user is given some information about the Imperial & Metric systems and how the UK has made their own hybrid, this is followed by the first question used to engage the user.
 4. Halfway through User Journey (Q2):
 Depending on the user's answer to the previous question the user will either be congratulated for being correct or informed that they weren't quite right, there is then the second question to further engage the user.
@@ -55,17 +55,17 @@ Depending on the user's answer to the previous question the user will either be 
 Again, depending on the user's answer they might be congratulated for putting the correct answer, this is followed by a crazy fun fact about the UK's liquid measurements and a button to continue
 6. Introduction to The Converter:
 This page introduces the user to the converter and informs them of what measurements they can convert between.
-7. Mesurement Converter:
-The converter will allow the user to enter an imperial unit of measurement and see what it is in metric and vise versa, with a retunr to home button at the bottom.
+7. Measurement Converter:
+The converter will allow the user to enter an imperial unit of measurement and see what it is in metric and vice versa, with a return to home button at the bottom.
 
 📱 Prototyping with Figma
 -
-When designing the web application, I chose to use Figma to visulise how the app would look and how the user would navigate it. I chose Figma because it allows for the app to be designed in detail with text, images and buttons enabling a strong prototype to base the MVP web app on.
+When designing the web application, I chose to use Figma to visualise how the app would look and how the user would navigate it. I chose Figma because it allows for the app to be designed in detail with text, images and buttons enabling a strong prototype to base the MVP web app on.
 Figma also enables you to connect the pages together with their prototyping tools, which enabled me to produce an interactive prototype with realistic user navigation that I can use to base my web app on.
 
 This is what the Figma prototyping tool looks like:
 --
-![Screenshot of the backend of my Figma with the page links visable](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Figma%20Prototype.png)
+![Screenshot of the backend of my Figma with the page links visible](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Figma%20Prototype.png)
 
 This is what the prototype looks like for the user:
 --
@@ -81,9 +81,9 @@ This is what the prototype looks like for the user:
 
 📊 Kanban Board
 -
-To manage this project, I chose to user GitHub Projects as it natively intergrates with GitHub which is where the project is hosted. GitHub projects allows a Kanban Board which helps to catagorise each ticket with lables so you can easily filter the tickets to find the section you are looking for.
-With the tickets I have chosen a design template that clearly outlines what the ticket is for, the activities within it, the dependencies required in order to worlk on this ticket and any additinal notes.
-GitHubs Kanban also enables the user to connect pull requests to the ticket allowing for seamless audit logs, in addition to other features I didnt have to use such as asigning actions as I did this project alone.
+To manage this project, I chose to user GitHub Projects as it natively integrates with GitHub which is where the project is hosted. GitHub projects allows a Kanban Board which helps to categorise each ticket with labels so you can easily filter the tickets to find the section you are looking for.
+With the tickets I have chosen a design template that clearly outlines what the ticket is for, the activities within it, the dependencies required in order to work on this ticket and any additional notes.
+GitHubs Kanban also enables the user to connect pull requests to the ticket allowing for seamless audit logs, in addition to other features I didn’t have to use such as aligning actions as I did this project alone.
 
 ![Screenshot of my Knban Board showing how it was used](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Kanban%20Board.jpg)
 
@@ -101,7 +101,7 @@ Using Git Hub labels was beneficial for my project as it enabled me to efficient
 
 📂⃔⃕ Ticket Layout
 -
-As previously mentioned I followed a set template when producing my tickets to ensure all ticket fully informed anyone viewing what it is for, and to also ensure the tickets where clear during all stages of the project and I could refer back to them effortlesly.
+As previously mentioned I followed a set template when producing my tickets to ensure all ticket fully informed anyone viewing what it is for, and to also ensure the tickets where clear during all stages of the project and I could refer back to them effortlessly.
 - Description - This section was used to provide information about why the ticket had been produced and what it aims to achieve.
 - Objectives - I utilised checkboxes to clearly mark an objective as finished when the work had been completed. I also utilised this feature to convert any objectives I hadn't achieved into new tickets, and worked on as an improvements or bug fixes. These objectives were used to outline what steps needed to be completed as part of this ticket.
 - Dependancies - This section was used to inform me what needed to be completed before moving onto the next stage, this helped me to align to the agile approach and complete a stage only when the task that need to be completed first have been.
@@ -113,7 +113,7 @@ As previously mentioned I followed a set template when producing my tickets to e
 -
 For this project, I chose to follow the Agile methodology with sprints, to do this I used the GitHub Roadmap feature to lay out when each task should be completed. However, as the name suggests this approach is agile and allows for changes in the schedule. An example of this in my project was when pushing the app live, a bug occurred where my app's index page had a capital I, this meant that my GitHub was not able to find the HTML web app and I had to create a new bug ticket to discover and fix this issue. This meant that I had to re-prioritise items to ensure the bug fix was prioritised over documentation.
 
-![Screenshot of my schedule / roadmap and how i used it to plan takss around dates](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Roadmap%20Planning.png)
+![Screenshot of my schedule / roadmap and how i used it to plan tasks around dates](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Roadmap%20Planning.png)
 
 </details>
 
@@ -149,7 +149,7 @@ If you are having issues with any element of the app, please refresh the page. I
 
 📚 Technical stack used
 -
-Within this project I used a few diffrent coding languages and applications to ensure I was able to produce the app properly.
+Within this project I used a few different coding languages and applications to ensure I was able to produce the app properly.
 - HTML (Hypertext Markup Language)
 - CSS (Cascading Style Sheets)
 - Java Script
@@ -169,11 +169,11 @@ User Journey Question 1:
 
 User Journey Question 2:
 - `UJ-Question-2.html` - HTML Code (The front end)
-- `UJ.Question-2.js` - Java Script Code (Back end code dispaying the users answer to question 1)
+- `UJ.Question-2.js` - Java Script Code (Back end code displaying the users answer to question 1)
 
 User Journey Finish:
 - `UJ-Finish.html` - HTML Code (The front end)
-- `UJ-Finish.js` - Java Script Code (Back end code dispaying the users answer to question 2)
+- `UJ-Finish.js` - Java Script Code (Back end code displaying the users answer to question 2)
 
 The Converter:
 - `Converter-2.0.html` - HTML Code (The front end)
@@ -217,7 +217,7 @@ npm install --save-dev jest
 MVP stands for Minimum Viable Product, which, in basic terms, is the simplest version of an application that can be produced. It is similar to a Proof of Concept (POC) as it is used to display the idea for a new app without the risk of wasting resources developing something that isn't wanted by the target audience.
 By producing this MVP, my web app can be trialled to its target audience ahead of launch to ensure that it achieves what the users want it to do. Also, by having an MVP, there is a chance that an investor will see the web app and invest in the idea, enabling the scale-up across other outlets such as downloadable applications.
 
-🙋🏻‍♂️👨🏻‍🦽‍➡️ User Stories & Acsesability
+🙋🏻‍♂️👨🏻‍🦽‍➡️ User Stories & Accessibility
 - 
 One of the key elements of developing any app is ensuring that the users and their navigation/accessibility of the application is at the forefront of development, due to this, I gathered feedback from users of the prototype to understand what they liked and didn't like.
 
@@ -231,9 +231,9 @@ Dislikes:
 
 I also built a few user stories to demonstrate some of the requirements everyday users will have of the web app and used these to develop the application in a way that is accessible to all, these user stories demonstrate the need to have an accessible app that has features such as alt text for images and contrasting colours to ensure all users can see the information that they want with ease.
 
-![Image showing the 3 user stories expressing the need for an acessable site for all](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/User%20Stories.png)
+![Image showing the 3 user stories expressing the need for an accessible site for all](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/User%20Stories.png)
 
-Following this, I wanted to ensure my site was accessible, so I ran it through Google's Page Speed Insights checker which ranked assessability at 100%
+Following this, I wanted to ensure my site was accessible, so I ran it through Google's Page Speed Insights checker which ranked asesability at 100%
 
 ![Image showing the Google Page Speeds Summary](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Google%20Page%20Speed%20Insights.png)
 
@@ -333,7 +333,7 @@ As previously mentioned, I can run my tests within WebStorm (my coding applicati
 -
 Jest also works in GitHub workflows, which meant every time I pushed code, it checked to see if my Jest tests still worked as planned and if any changes made had effected the operations of the web app. Below is a screenshot of a successful test on GitHub.
 
-![Screenshot showing a sucsesful test on GitHub](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Sucsesful%20test%20in%20GitHub.png)
+![Screenshot showing a successful test on GitHub](https://github.com/T-J-Summer/SE-Summative-1/blob/main/Images/Repository/Sucsesful%20test%20in%20GitHub.png)
 
 😱 Failed Tests
 - 
@@ -366,11 +366,11 @@ When starting this project 3 key metrics needed to be achieved to ensure success
 - [x] Continued adherence to Test-Driven-Decision making
 - Finally, throughout every stage of this project I bound myself to the automated Jest tests on GitHub Workflows, this helped to ensure that every push of new code did not affect the operation of the app and its more intricate elements like the converter. Supporting this, I split the essential Java Script code out from the HTML, so if there were any cosmetic errors in the HTML script the chances of accidental damage to the Java Script had been mitigated.
 
-By acheving all three of these points I feel the project was a sucsess and follows the needs of any MVP.
+By achieving all three of these points I feel the project was a success and follows the needs of any MVP.
 
 +🥇 What I am proud of
 -
-I am proud of the acessability of my app and it passing with 100% when put into Googles Page Speed checker. Accesabilty was something i wanted to prioritise when producing this app, so by using colours that are easy for all user to read and alternate text for thoes who are visualy impaired, I am proud that my app is acessable to all.
+I am proud of the accessibility of my app and it passing with 100% when put into Googles Page Speed checker. Accessibility was something i wanted to prioritise when producing this app, so by using colours that are easy for all user to read and alternate text for those who are visually impaired, I am proud that my app is accessible to all.
 
 I am also proud of my knowledge advancement in HTML & JavaScript during this project, as I have never used either language in this detail before so I am proud that I was able to not only code a working app, but also create an app that can assist a large number of people.
 
