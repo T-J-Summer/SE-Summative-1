@@ -342,3 +342,42 @@ From this, I was able to create a bug ticket and fix the error in the code befor
 
 
 </details>
+
+
+
+<p>
+<details>
+<summary>Evaluation & Next Steps ⏭️🪜</summary>
+
+🌎📱 Evaluation of the project as a whole
+-
+When starting this project 3 key metrics needed to be achieved to ensure success where:
+
+- [x] Final web app following the design and colour scheme set out in the Figma prototype
+- the web app follows the same contrasting colour scheme, fonts & icon/button placement as the prototype. This is important as the prototype was set out following my organisation's brand guidelines which ensure all users can easily read and interact with the content.
+
+- [x] Continued user accessibility both throughout the app and the repository as a whole
+- I continued to prioritise accessibility throughout each stage of app production, firstly my prototype followed brand guidelines which innately support user accessibility. Additionally, with all images, I uploaded alternative text so that users who are visually impaired are still able to use the web app as easily as a full-sighted user. Finally, I structured the app in a way where that is incremental to not overwhelm users with nuro diverse conditions.
+
+- [x] Continued adherence to Test-Driven-Decision making
+- Finally, throughout every stage of this project I bound myself to the automated Jest tests on GitHub Workflows, this helped to ensure that every push of new code did not affect the operation of the app and its more intricate elements like the converter. Supporting this, I split the essential Java Script code out from the HTML, so if there were any cosmetic errors in the HTML script the chances of accidental damage to the Java Script had been mitigated.
+
+By acheving all three of these points I feel the project was a sucsess and follows the needs of any MVP.
+
++🥇 What I am proud of
+-
+I am proud of the acessability of my app and it passing with 100% when put into Googles Page Speed checker. Accesabilty was something i wanted to prioritise when producing this app, so by using colours that are easy for all user to read and alternate text for thoes who are visualy inpared, i am proud that my app is acessable to all.
+
+I am also proud of my knowledge advancement in html & JavaScript suring this project, as i have never used ether language in this detail before i am proud that i was able to not only code a working app, but also create an app that can assist a large numebr of people.
+
+👎🏻🙅🏻‍♂️ What could I do better if I did the project again
+-
+If I were to do this project again, I would be more conscious about opening branches so that they align with my schedule more. One of the issues I had was opening the next branch before the GitHub tests had run, so if there was a bug fix, the branch I opened was then out of date. 
+
+🔮 Future Development ideas
+-
+For future development of this app, I am keen to get a working translator that enables users to view the journey and converter in their preferred language. This would be achieved using Google Translate's API and would be a great next step for the project going live.
+
+Additionally, I would like to add more conversions to the converter (like Celsius to Fahrenheit) to allow users from further afar than Europe to have the web app as a go-to when they don't know what the measurement conversion is.
+
+</details>
